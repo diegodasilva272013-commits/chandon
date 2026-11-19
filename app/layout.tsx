@@ -22,9 +22,11 @@ const fg = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://chandon-nine.vercel.app"),
   title: meta.title,
   description: meta.description,
-  openGraph: { title: meta.title, description: meta.description, locale: "es_AR", type: "website" },
+  openGraph: { title: meta.title, description: meta.description, siteName: meta.siteName, url: "/", locale: "es_AR", type: "website" },
+  twitter: { card: "summary_large_image", title: meta.title, description: meta.description },
 };
 
 export const viewport: Viewport = { themeColor: "#0b0b0b", colorScheme: "dark" };
