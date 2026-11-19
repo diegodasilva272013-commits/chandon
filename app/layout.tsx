@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://chandon-nine.vercel.app"),
   title: meta.title,
   description: meta.description,
-  openGraph: { title: meta.title, description: meta.description, siteName: meta.siteName, url: "/", locale: "es_AR", type: "website" },
-  twitter: { card: "summary_large_image", title: meta.title, description: meta.description },
+  openGraph: { title: meta.title, description: meta.description, siteName: meta.siteName, url: "/", locale: "es_AR", type: "website", images: [{ url: "/og.png", width: 1200, height: 630, alt: "Chandon" }] },
+  twitter: { card: "summary_large_image", title: meta.title, description: meta.description, images: ["/og.png"] },
 };
 
 export const viewport: Viewport = { themeColor: "#0b0b0b", colorScheme: "dark" };
