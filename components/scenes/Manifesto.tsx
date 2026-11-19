@@ -5,7 +5,7 @@ import RichHeading from "@/components/ui/RichHeading";
 /** Manifiesto sobre crema: el titular se enciende palabra por palabra con el scroll y abre fotos dentro del texto. */
 export default function Manifesto() {
   return (
-    <section aria-label={home.manifesto.cta} className="on-bone px-5 py-32 md:px-10 md:py-52">
+    <section aria-label={home.manifesto.cta} className="on-bone px-5 py-20 md:px-10 md:py-52">
       <div className="mx-auto max-w-[1600px]">
         <RichHeading
           as="p"

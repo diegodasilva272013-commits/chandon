@@ -191,13 +191,13 @@ export function ThreeDPhotoCarousel({
         )}
       </AnimatePresence>
 
-      <div className="relative h-[460px] w-full overflow-hidden md:h-[600px]">
+      <div className="relative h-[400px] w-full overflow-hidden md:h-[600px]">
         <Carousel images={images} onPick={setOpen} active={open === null} />
         <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 w-[18%] bg-gradient-to-r from-ink to-transparent" />
         <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-0 w-[18%] bg-gradient-to-l from-ink to-transparent" />
       </div>
 
-      <div className="mt-4 flex flex-col items-center gap-3">
+      <div className="mt-2 flex flex-col items-center gap-3">
         {hint && <p className="text-center text-sm font-light text-[var(--mute)]">{hint}</p>}
         <button type="button" onClick={() => setOpen(0)} className="btn btn-ghost">
           {labels.open}

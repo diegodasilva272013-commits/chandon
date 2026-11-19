@@ -184,7 +184,7 @@ export default function BottleCarousel() {
 
       {/* escenario 3D */}
       <div className="absolute inset-0 z-10 flex items-center justify-center" style={{ perspective: "1300px", perspectiveOrigin: "50% 40%" }}>
-        <div ref={stageRef} className="relative h-[min(60svh,620px)] w-0 transition-transform duration-500 [transition-timing-function:var(--ease-out)]" style={{ transformStyle: "preserve-3d" }}>
+        <div ref={stageRef} className="relative h-[44svh] w-0 md:h-[min(60svh,620px)] transition-transform duration-500 [transition-timing-function:var(--ease-out)]" style={{ transformStyle: "preserve-3d" }}>
           {products.map((pr, i) => (
             <div
               key={pr.slug}

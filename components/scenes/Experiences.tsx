@@ -50,7 +50,7 @@ export default function Experiences({ showCta = true }: { showCta?: boolean }) {
   };
 
   return (
-    <section aria-labelledby="mesa" className="bg-ink py-28 md:py-44">
+    <section aria-labelledby="mesa" className="bg-ink py-16 md:py-44">
       <div className="mx-auto max-w-[1600px] px-5 md:px-10">
         <RichHeading
           id="mesa"
@@ -123,7 +123,7 @@ export default function Experiences({ showCta = true }: { showCta?: boolean }) {
         onPointerMove={onMove}
         onPointerUp={() => (drag.current.down = false)}
         onPointerCancel={() => (drag.current.down = false)}
-        className="no-scrollbar mt-12 flex gap-3 overflow-x-auto px-5 pb-2 md:hidden"
+        className="no-scrollbar mt-8 flex gap-3 overflow-x-auto px-5 pb-2 md:hidden"
         aria-label={t.title}
       >
         {experiences.map((x) => (

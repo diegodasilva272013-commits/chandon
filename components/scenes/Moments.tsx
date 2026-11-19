@@ -45,10 +45,10 @@ export default function Moments() {
   }, []);
 
   return (
-    <section ref={root} aria-labelledby="momentos" className="bg-ink px-5 py-28 md:px-10 md:py-44">
+    <section ref={root} aria-labelledby="momentos" className="bg-ink px-5 py-16 md:px-10 md:py-44">
       <div className="mx-auto max-w-[1600px]">
         <RichHeading id="momentos" parts={[home.moments.title]} />
-        <ul className="mt-16 md:mt-24">
+        <ul className="mt-8 md:mt-24">
           {moments.map((m, i) => (
             <li
               key={m.id}

@@ -25,7 +25,7 @@ export default function PhotoSphere() {
   }, []);
 
   return (
-    <section aria-labelledby="esfera" className="relative overflow-hidden bg-ink py-28 md:py-44">
+    <section aria-labelledby="esfera" className="relative overflow-hidden bg-ink py-16 md:py-44">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute left-1/2 top-[58%] aspect-square w-[90vmin] -translate-x-1/2 -translate-y-1/2"
@@ -34,13 +34,13 @@ export default function PhotoSphere() {
       <div className="relative mx-auto max-w-[1600px] px-5 text-center md:px-10">
         <RichHeading id="esfera" parts={[sphere.title]} className="h2 mx-auto max-w-4xl" />
       </div>
-      <div className="relative mt-12 flex justify-center md:mt-16">
+      <div className="relative mt-6 flex justify-center md:mt-16">
         <LazyMount minHeight={size}>
         <SphereImageGrid
           images={photos}
           containerSize={size}
-          sphereRadius={size * 0.43}
-          baseImageScale={0.22}
+          sphereRadius={size * (size < 500 ? 0.4 : 0.43)}
+          baseImageScale={size < 500 ? 0.3 : 0.22}
           dragSensitivity={0.7}
           momentumDecay={0.96}
           maxRotationSpeed={6}

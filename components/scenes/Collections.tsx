@@ -76,7 +76,7 @@ export default function Collections() {
 
   return (
     <section ref={root} aria-labelledby="colecciones" className="relative bg-ink">
-      <div className="mx-auto max-w-[1600px] px-5 pt-32 md:px-10 md:pt-48">
+      <div className="mx-auto max-w-[1600px] px-5 pt-20 md:px-10 md:pt-48">
         <RichHeading id="colecciones" parts={[home.collections.title]} />
       </div>
 
@@ -85,10 +85,10 @@ export default function Collections() {
         const col = collections[id];
         const flip = idx === 1;
         return (
-          <div key={id} data-block className="relative mt-20 overflow-x-clip border-t border-[var(--line)] md:mt-32">
+          <div key={id} data-block className="relative mt-10 overflow-x-clip border-t border-[var(--line)] md:mt-32">
 
             <div className={`relative z-10 mx-auto grid max-w-[1600px] px-5 md:px-10 ${flip ? "md:grid-cols-[7fr_5fr]" : "md:grid-cols-[5fr_7fr]"}`}>
-              <div data-left className={`relative flex flex-col justify-center py-16 md:h-[100svh] md:py-0 ${flip ? "md:order-2 md:pl-10" : "md:pr-10"}`}>
+              <div data-left className={`relative flex flex-col justify-center pb-6 pt-14 md:h-[100svh] md:py-0 ${flip ? "md:order-2 md:pl-10" : "md:pr-10"}`}>
             <div
               aria-hidden="true"
               data-giant
@@ -110,12 +110,12 @@ export default function Collections() {
                 </div>
               </div>
 
-              <ul className={`relative z-10 flex flex-col gap-[14svh] py-6 md:py-[16svh] ${flip ? "md:order-1" : ""}`}>
+              <ul className={`relative z-10 flex flex-col gap-[6svh] pb-10 md:gap-[14svh] md:py-[16svh] ${flip ? "md:order-1" : ""}`}>
                 {list.map((p, i) => (
                   <li
                     key={p.slug}
                     data-item
-                    className={`relative flex ${i % 2 ? "justify-end md:pr-[6%]" : "justify-start md:pl-[6%]"}`}
+                    className={`relative flex ${i % 2 ? "justify-center md:justify-end md:pr-[6%]" : "justify-center md:justify-start md:pl-[6%]"}`}
                   >
                     <Link
                       href={`/espumantes/${p.slug}`}
@@ -148,11 +148,11 @@ export default function Collections() {
                             src={p.bottle}
                             alt={p.name}
                             sizes="(min-width: 768px) 22vw, 50vw"
-                            className="h-[clamp(300px,64svh,640px)] w-auto"
+                            className="h-[46svh] min-h-[300px] w-auto md:h-[clamp(300px,64svh,640px)]"
                           />
                         </span>
                       </span>
-                      <span className={`mt-5 block max-w-[16rem] md:absolute md:bottom-0 md:max-w-[13rem] ${i % 2 ? "md:right-full md:mr-6 md:text-right" : "md:left-full md:ml-6"}`}>
+                      <span className={`mt-4 block max-w-[16rem] text-center md:text-left md:absolute md:bottom-0 md:max-w-[13rem] ${i % 2 ? "md:right-full md:mr-6 md:text-right" : "md:left-full md:ml-6"}`}>
                         <span className="block text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">{p.short}</span>
                         <span className="mt-2 block text-sm font-light leading-snug">{p.tagline}</span>
                       </span>
