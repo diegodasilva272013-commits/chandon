@@ -1,0 +1,352 @@
+{
+  "/media/bottle/bottle-extra-brut.webp": {
+    "width": 448,
+    "height": 1672,
+    "dominant": "#626147",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-rose.webp": {
+    "width": 447,
+    "height": 1631,
+    "dominant": "#5f453e",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-demi-sec.webp": {
+    "width": 437,
+    "height": 1671,
+    "dominant": "#585c4d",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-delice.webp": {
+    "width": 448,
+    "height": 1655,
+    "dominant": "#4f4129",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-aperitif.webp": {
+    "width": 958,
+    "height": 3009,
+    "dominant": "#63453a",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-delice-rose.webp": {
+    "width": 699,
+    "height": 2662,
+    "dominant": "#f0c8bb",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-brut-nature.webp": {
+    "width": 448,
+    "height": 1671,
+    "dominant": "#1e2316",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-brut-nature-rose.webp": {
+    "width": 444,
+    "height": 1631,
+    "dominant": "#291e16",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-blanc-de-blancs.webp": {
+    "width": 448,
+    "height": 1649,
+    "dominant": "#232819",
+    "src": "original",
+    "cut": false
+  },
+  "/media/bottle/bottle-blanc-de-noirs.webp": {
+    "width": 447,
+    "height": 1645,
+    "dominant": "#251815",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/extra-brut.webp": {
+    "width": 2229,
+    "height": 3000,
+    "dominant": "#e5c6ab",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/rose.webp": {
+    "width": 2400,
+    "height": 2716,
+    "dominant": "#7b4e31",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/demi-sec.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#eec8a0",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/delice.webp": {
+    "width": 2400,
+    "height": 1601,
+    "dominant": "#3d2d1e",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/aperitif.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#aa7c60",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/delice-rose.webp": {
+    "width": 2400,
+    "height": 1601,
+    "dominant": "#3e2f20",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/brut-nature.webp": {
+    "width": 1440,
+    "height": 1410,
+    "dominant": "#916345",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/brut-nature-rose.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#e7c6a7",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/blanc-de-blancs.webp": {
+    "width": 2400,
+    "height": 3200,
+    "dominant": "#9e844e",
+    "src": "original",
+    "cut": false
+  },
+  "/media/product/blanc-de-noirs.webp": {
+    "width": 2400,
+    "height": 1601,
+    "dominant": "#7c5a43",
+    "src": "original",
+    "cut": false
+  },
+  "/media/process/harvest.webp": {
+    "width": 600,
+    "height": 600,
+    "dominant": "#9a9386",
+    "src": "original",
+    "cut": false
+  },
+  "/media/process/first-fermentation.webp": {
+    "width": 600,
+    "height": 600,
+    "dominant": "#9a9188",
+    "src": "original",
+    "cut": false
+  },
+  "/media/process/blending.webp": {
+    "width": 600,
+    "height": 600,
+    "dominant": "#af9f8f",
+    "src": "original",
+    "cut": false
+  },
+  "/media/process/second-fermentation.webp": {
+    "width": 600,
+    "height": 600,
+    "dominant": "#9f948a",
+    "src": "original",
+    "cut": false
+  },
+  "/media/process/dosage.webp": {
+    "width": 600,
+    "height": 600,
+    "dominant": "#b1a69b",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/home-hero-1.webp": {
+    "width": 2400,
+    "height": 1800,
+    "dominant": "#606b75",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/home-hero-2.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#615f5e",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/bodega-hero.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#605a51",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/cava-hero.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#5b3014",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/edificio.webp": {
+    "width": 2400,
+    "height": 1572,
+    "dominant": "#5d645f",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/vinedos-pano.webp": {
+    "width": 2400,
+    "height": 1416,
+    "dominant": "#686e5b",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/agrelo.webp": {
+    "width": 1280,
+    "height": 853,
+    "dominant": "#7b6f2b",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/cepas-del-plata.webp": {
+    "width": 2400,
+    "height": 747,
+    "dominant": "#7b816a",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/el-espinillo.webp": {
+    "width": 2400,
+    "height": 1601,
+    "dominant": "#9c8749",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/chef-de-cave.webp": {
+    "width": 1280,
+    "height": 1600,
+    "dominant": "#777e55",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/historia-2.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#6d5c50",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/brindis-sol.webp": {
+    "width": 2400,
+    "height": 1800,
+    "dominant": "#957164",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/atardecer-vina.webp": {
+    "width": 2400,
+    "height": 1800,
+    "dominant": "#a4a49e",
+    "src": "original",
+    "cut": false
+  },
+  "/media/site/degustacion.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#927459",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/visita-clasica.webp": {
+    "width": 2400,
+    "height": 3600,
+    "dominant": "#8e5f3b",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/visita-premium.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#9c7f6a",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/chef-de-cave.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#8f6f57",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/5-sentidos.webp": {
+    "width": 1200,
+    "height": 800,
+    "dominant": "#e2c1a5",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/sweeties.webp": {
+    "width": 2400,
+    "height": 3602,
+    "dominant": "#c19a74",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/menu-casa.webp": {
+    "width": 1111,
+    "height": 892,
+    "dominant": "#b5895f",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/picada.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#aa7c60",
+    "src": "original",
+    "cut": false
+  },
+  "/media/exp/picnic.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#d1ad7e",
+    "src": "original",
+    "cut": false
+  },
+  "/media/moments/home-experience.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#17120d",
+    "src": "original",
+    "cut": false
+  },
+  "/media/moments/baf-week.webp": {
+    "width": 2400,
+    "height": 3600,
+    "dominant": "#6b3f46",
+    "src": "original",
+    "cut": false
+  },
+  "/media/moments/roads.webp": {
+    "width": 2400,
+    "height": 1600,
+    "dominant": "#676366",
+    "src": "original",
+    "cut": false
+  }
+}
